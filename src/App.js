@@ -30,6 +30,9 @@ const App = () => {
                         <div className='col-sm'>
                             <ExpenseTotal />
                         </div>
+                        <div className='col-sm'>
+                            <Currency />
+                        </div>
                     </div>
                     <h3 className='mt-3'>Allocation</h3>
                     <div className='row '>
@@ -44,12 +47,6 @@ const App = () => {
                         {/* Add AllocationForm component here under */}
                         <div className='col-sm'>
                             <AllocationForm />
-                        </div>
-                    </div>
-                    <h3 className='mt-3'>Change currency</h3>
-                    <div className='row mt-3'>
-                        <div className='col-sm'>
-                            <Currency />
                         </div>
                     </div>
             </div>

@@ -2,9 +2,14 @@ import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 
 const Currency = () => {
-    const { currency, dispatch } = useContext(AppContext);
+    const { dispatch } = useContext(AppContext);
+    const style = {
+        'background-color': '#80ff80',
+        'color': 'white',
+    };
     return (
         <select 
+        style={style}
         className="form-select" 
         aria-label="Default select example"
         onChange={(event) => {
@@ -33,9 +38,8 @@ const Currency = () => {
                 })
             }
         }}>
-            <option defaultValue>Currency ({currency} Pound)</option>
             <option value="1">$ Dollar</option>
-            <option value="2">£ Pound</option>
+            <option defaultValue value="2">£ Pound</option>
             <option value="3">€ Euro</option>
             <option value="4">₹ Ruppee</option>
         </select>

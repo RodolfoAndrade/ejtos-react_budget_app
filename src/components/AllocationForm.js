@@ -61,7 +61,7 @@ const AllocationForm = (props) => {
                         value={cost}
                         onChange={(event) => {
                             let value = event.target.value;
-                            if(value!=''){
+                            if(value!==''){
                                 if(!isNaN(value)){
                                     console.log(value);
                                     setCost(value);
