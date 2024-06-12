@@ -35,7 +35,7 @@ This section include instructions on how to clone the repository, install depend
 
 Clone the repository:
 
-    git clone https://github.com/RodolfoAndrade/ejtos-react_budget_app.git
+    git clone https://github.com/RodolfoAndrade/react_budget_app.git
 
 Open Visual Studio Code, then open the cloned folder, with a new terminal type the command to install the dependencies:
 
