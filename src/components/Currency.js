@@ -39,7 +39,7 @@ const Currency = () => {
             }
         }}>
             <option value="1">$ Dollar</option>
-            <option defaultValue value="2">£ Pound</option>
+            <option selected value="2">£ Pound</option>
             <option value="3">€ Euro</option>
             <option value="4">₹ Ruppee</option>
         </select>
